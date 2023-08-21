@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+font-size: 12px}
+
+
+
+
+.country-selector {
+    border-radius: 0;
+    color: #000000de;
+    flex-shrink: 0;
+    height: auto;
+    height: initial;
+    line-height: inherit;
+    width: 90px;
+    padding: 1px;
+    opacity: unset !important;
+    
+    // */transition: opacity .2s;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    left: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+}
